@@ -1,0 +1,220 @@
+.line{
+    background-color:  blue;
+}
+.top{
+    display: inline;
+    padding: 15px;
+}
+.main1{
+    display: inline;
+    padding: 20px;
+    background-color: lightgreen;
+}
+.main2{
+    display: inline;
+    padding: 155px;
+}
+.button{
+    display: inline;
+    padding-right: 05px;
+}
+.facebook{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.twitter{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.instagram{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.youtube{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.whatsapp{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.Intro{
+        margin: auto;
+        width: 60%;
+    }
+.maaz{
+    background-color: mediumblue;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width:1300px){
+    body{
+        min-width: 1000px;
+    }
+        img{
+            width: 1000px;
+        }
+
+}
+@media only screen and (max-width:1000px){
+    body{
+        min-width: 500px;
+    }
+        img{
+            width: 500px;
+        }
+
+}
+@media only screen and (max-width:500px){
+    body{
+        min-width: 300px;
+    }
+        img{
+            width: 300px;
+        }
+
+}
+
+.intoimages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.weimages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.one,.two,.three,.four{
+    justify-content: center;
+    display: flex;
+}
+.contener1,.contener2,.contener3{
+    background-color:lightgray;
+    width: 400px;
+    height: 150PX;
+    display:inline-table;
+    padding-top: 35px ;
+       
+}
+.contener4,.contener5,.contener6{
+    background-color:lightgray;
+    width: 400px;
+    height: 150PX;
+    display:inline-table;
+     padding-top: 35px ; 
+}    
+.online,.Welfare,.Medical{
+    justify-content: center;
+    display: flex;
+    
+}    
+.Dastarkhawn,.RoPlant,.Education{
+    justify-content: center;
+    display: flex;
+    ;
+}
+
+.mission{
+    /* display: inline-flex; */
+    color: blue;
+
+}
+.doing{
+    color: blue;
+
+}
+
+.introduction{
+    color: blue;
+}
+
+
+.hepatitis,.housing{
+    background-color:lightgray;
+    width: 300px;
+    height: 10PX;
+    display:inline-table;
+    padding-top: 35px ;
+    padding-bottom: 30px;   
+}
+
+.cy1,.cy2{
+    justify-content: right;
+    display: flex;
+    ;
+}
+
+
+.IT,.tharparkar{
+    background-color:lightgray;
+    width: 300px;
+    height: 10PX;
+    display:inline-table;
+    padding-top: 35px ; 
+    padding-bottom: 30px;  
+}
+.cy3,.cy4{
+    justify-content: right;
+    display: flex;
+    ;
+}
+.event{
+
+    color: blue;
+
+}
+/* .event{
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+} */
+
+
+.food{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+}
+.project2 {
+    display: flex;
+}
+.leftDiv {
+    width: 60%;
+}
+.rightDiv {
+    width: 40%;
+}
+.cards {
+    width: 40%;
+}
+
+.contener8{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* .headoffice{
+    width: 40%;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    width: 30%;
+}
+
+
+.saylani{
+    width: 30%;
+     */
+}
+.gototpo{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
