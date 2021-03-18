@@ -1,0 +1,302 @@
+.line{
+    background-color:  blue;
+    border-width: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.top{
+    display: flex;
+    align-items: center !important;
+    justify-content: space-around;
+    min-width: 200px;
+}
+
+.main1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 100%;
+
+    
+}
+
+
+
+.main2{
+    display: inline;
+    padding: 155px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding-right: 05px;
+}
+.facebook{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.twitter{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.instagram{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.youtube{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.whatsapp{
+    margin: 1px 7px 1px 1px;
+    display: inline-block;
+}
+.Intro{
+        margin: auto;
+        width: 60%;
+    }
+.maaz{
+    background-color: mediumblue;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width:800px){
+        body{
+            min-width: 800px;
+        }
+        /* img{
+            width: 800px;
+        } */
+        .food{
+            min-width: 800px;
+        } 
+    .leftDiv{
+        width: 100% !important;
+
+    }
+    .project2{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+ }
+@media only screen and (max-width:700px){
+    body{
+        min-width: 700px;
+    }
+        /* img{
+            width: 700px;
+        } */
+         .food{
+             min-width: 700px;
+         }
+         .leftDiv{
+            width: 100% !important;
+    
+        }
+        .project2{
+            display: flex;
+            flex-wrap: wrap;
+    
+        }
+         
+}
+@media only screen and (max-width:500px){
+    body{
+        min-width: 500px;
+    }
+        /* img{
+            width: 500px;
+        } */
+    .food{
+         min-width: 500px;
+    }
+    .leftDiv{
+        width: 100% !important;
+
+    }
+    .project2{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+    @media only screen and (max-width:300px){
+    
+           
+            .food{
+                min-width: 300px;
+           }
+           
+    }
+    .leftDiv{
+        width: 100% !important;
+
+    }
+    .project2{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+
+    .eeee{
+        display: FLEX;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+
+.intoimages{
+        display: flex;
+        justify-content: center;
+    
+}
+.weimages{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.one,.two,.three,.four{
+    justify-content: center;
+    display: flex;
+}
+.contener1,.contener2,.contener3{
+    background-color:lightgray;
+    width: 400px;
+    height: 150PX;
+    display:inline-table;
+    padding-top: 35px ;
+       
+}
+.contener4,.contener5,.contener6{
+    background-color:lightgray;
+    width: 400px;
+    height: 150PX;
+    display:inline-table;
+     padding-top: 35px ; 
+}    
+.online,.Welfare,.Medical{
+    justify-content: center;
+    display: flex;
+    
+}    
+.Dastarkhawn,.RoPlant,.Education{
+    justify-content: center;
+    display: flex;
+    ;
+}
+
+.mission{
+    /* display: inline-flex; */
+    color: blue;
+
+}
+.doing{
+    color: blue;
+
+}
+
+.introduction{
+    color: blue;
+}
+
+
+.hepatitis,.housing{
+    background-color:lightgray;
+    width: 300px;
+    height: 10PX;
+    display:inline-table;
+    padding-top: 35px ;
+    padding-bottom: 30px;   
+}
+
+.cy1,.cy2{
+    justify-content: right;
+    display: flex;
+    ;
+}
+
+
+.IT,.tharparkar{
+    background-color:lightgray;
+    width: 300px;
+    height: 10PX;
+    display:inline-table;
+    padding-top: 35px ; 
+    padding-bottom: 30px;  
+}
+.cy3,.cy4{
+    justify-content: right;
+    display: flex;
+    ;
+}
+.event{
+
+    color: blue;
+
+}
+/* .event{
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+} */
+
+
+.food{
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.project2 {
+    display: flex;
+}
+.leftDiv {
+    width: 60%;
+}
+.rightDiv {
+    width: 40%;
+}
+.cards {
+    width: 40%;
+}
+
+.contener8{
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+
+    
+}
+
+/* .headoffice{
+    width: 40%;
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    width: 30%;
+}
+
+
+.saylani{
+    width: 30%;
+     */
+/* } */
+.gototop{
+    position: relative;
+    bottom: 1px;
+    left: 1px;
+    width: 100%;
+    background-color: white;
+}
